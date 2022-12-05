@@ -229,7 +229,7 @@ scanf("%d",&n);
 printf("enter the burst time of each process /n");
 for(i=0;i<n;i++)
 {
-printf(("p%d",i+1);
+printf("p%d",i+1);
 scanf("%d",&bt[i]);
 st[i]=bt[i];
 }
@@ -268,8 +268,8 @@ awt=(float)swt/n;
 atat=(float)stat/n;
 printf("process no\t burst time\t waiting time\t turnaround time\n");
 for(i=0;i<n;i++)
-printf("%d\t\t %d\t\t %d\t\t %d\n",i+1,bt[i],wt[i],tat[i]); printf("avg
-wt time=%f,avg turn around time=%f",awt,atat);
+printf("%d\t\t %d\t\t %d\t\t %d\n",i+1,bt[i],wt[i],tat[i]); 
+printf("avg time=%f,avg turn around time=%f",awt,atat);
 }
 ```
 ## IPC/PIPE:
