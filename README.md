@@ -408,7 +408,8 @@ int s[10], fno[10][20];
 printf("\nEnter the memory size -- ");
 scanf("%d",&ms);
 printf("\nEnter the page size -- ");
-scanf("%d",&ps);nop = ms/ps;
+scanf("%d",&ps);
+nop = ms/ps;
 printf("\nThe no. of pages available in memory are -- %d ",nop);
 printf("\nEnter number of processes -- ");
 scanf("%d",&np);
@@ -438,6 +439,7 @@ printf("\nThe Physical Address is -- %d",pa);
 }
 getch();
 }
+
 ```
 ## PRA/FIFO:
 ```
