@@ -767,7 +767,6 @@ getch();
 void main()
 {
 int f[50], index[50],i, n, st, len, j, c, k, ind,count=0;
-clrscr();
 for(i=0;i<50;i++)
 f[i]=0;
 x:printf("Enter the index block: ");
@@ -807,6 +806,7 @@ goto x;
 else
 exit(0);
 getch();}
+
 ```
 ## FM/LA
 ```
