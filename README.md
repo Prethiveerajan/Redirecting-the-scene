@@ -478,6 +478,7 @@ printf("\n");
 printf("\nPage Fault Is %d",count);
 return 0;
 }
+
 ```
 ## PRA/LRU:
 ```
